@@ -1,6 +1,6 @@
 site_name: Reactive Documentation
-site_url: https://orhpel.github.io/reactive/
-repo_url: https://github.com/orhpel/reactive
+site_url: https://orhpel.github.io/reactive.lua/
+repo_url: https://github.com/orhpel/reactive.lua
 edit_uri: edit/main/docs/
 theme:
   name: material
@@ -34,20 +34,21 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Introduction: 00-introduction.md
-  - Installation: 01-installation.md
-  - Ref and Effect: 02-ref-and-effect.md
-  - Computed: 03-computed.md
-  - Reactive Objects: 04-reactive-objects.md
-  - Watch: 05-watch.md
-  - Ref Variants: 06-ref-variants.md
-  - Reactive Variants: 07-reactive-variants.md
-  - Effect Scope: 08-effect-scope.md
-  - Deep Watching: 09-deep-watching.md
-  - Lua Interop: 10-lua-interop.md
-  - Iteration Details: 11-iteration-details.md
-  - Tracking Control: 12-tracking-control.md
-  - Differences from Vue: 90-differences-from-vue.md
+  - Guide:
+      - Introduction: guide/00-introduction.md
+      - Installation: guide/01-installation.md
+      - Ref and Effect: guide/02-ref-and-effect.md
+      - Computed: guide/03-computed.md
+      - Reactive Objects: guide/04-reactive-objects.md
+      - Watch: guide/05-watch.md
+      - Ref Variants: guide/06-ref-variants.md
+      - Reactive Variants: guide/07-reactive-variants.md
+      - Effect Scope: guide/08-effect-scope.md
+      - Deep Watching: guide/09-deep-watching.md
+      - Lua Interop: guide/10-lua-interop.md
+      - Iteration Details: guide/11-iteration-details.md
+      - Tracking Control: guide/12-tracking-control.md
+      - Differences from Vue: guide/90-differences-from-vue.md
   - Reference:
       - Overview: reference/README.md
       - Computed: reference/computed.md
