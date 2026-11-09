@@ -105,22 +105,22 @@ object and hope for the best."
 
 ## Do you have more?
 
-Yes. In the [documentation](https://orhpel.github.io/reactive/) you'll find:
+Yes. In the [documentation](https://orhpel.github.io/reactive.lua/docs/) you'll find:
 
-- [ref() and effect()](https://orhpel.github.io/reactive.lua/02-ref-and-effect/) — the intro
-- [computed()](https://orhpel.github.io/reactive.lua/03-computed/) — lazy, cached, chainable
-- [reactive()](https://orhpel.github.io/reactive.lua/04-reactive-objects/) — deep proxies for your tables
-- [watch() and watchEffect()](https://orhpel.github.io/reactive.lua/05-watch/) — with the full `deep`
+- [ref() and effect()](https://orhpel.github.io/reactive.lua/guide/docs/02-ref-and-effect/) — the intro
+- [computed()](https://orhpel.github.io/reactive.lua/guide/docs/03-computed/) — lazy, cached, chainable
+- [reactive()](https://orhpel.github.io/reactive.lua/guide/docs/04-reactive-objects/) — deep proxies for your tables
+- [watch() and watchEffect()](https://orhpel.github.io/reactive.lua/docs/guide/05-watch/) — with the full `deep`
   option spec
-- [Deep watching](https://orhpel.github.io/reactive.lua/09-deep-watching/) — why `deep = N` means what
+- [Deep watching](https://orhpel.github.io/reactive.lua/docs/guide/09-deep-watching/) — why `deep = N` means what
   it means
-- [Iteration details](https://orhpel.github.io/reactive.lua/11-iteration-details/) — what `pairs()`,
+- [Iteration details](https://orhpel.github.io/reactive.lua/docs/guide/11-iteration-details/) — what `pairs()`,
   `#`, and `ipairs()` actually trigger
-- [Tracking control](https://orhpel.github.io/reactive.lua/12-tracking-control/) — the pause/enable/
+- [Tracking control](https://orhpel.github.io/reactive.lua/docs/guide/12-tracking-control/) — the pause/enable/
   reset trio
-- [effectScope()](https://orhpel.github.io/reactive.lua/08-effect-scope/) — disposal groups
+- [effectScope()](https://orhpel.github.io/reactive.lua/docs/guide/08-effect-scope/) — disposal groups
 
-…and a [`examples/`](https://orhpel.github.io/reactive.lua/examples/) folder with
+…and a [`examples/`](https://orhpel.github.io/reactive.lua/docs/examples/) folder with
 **runnable, real-world-shaped examples** showing the library in action
 beyond toy counters. More are landing as the project grows.
 
@@ -131,7 +131,7 @@ Feature | Vue 3 | reactive.lua
 `ref` / `computed` / `effect` | ✅ | ✅
 `reactive` / `readonly` / `shallow*` | ✅ | ✅
 `watch` / `watchEffect` | ✅ | ✅
-`effectScope` | ✅ (nested) | ✅ (flat only — [see why](https://orhpel.github.io/reactive.lua/08-effect-scope/))
+`effectScope` | ✅ (nested) | ✅ (flat only — [see why](https://orhpel.github.io/reactive.lua/docs/guide/08-effect-scope/))
 `toRef` / `toRefs` / `proxyRefs` | ✅ | ✅
 Collection handlers (`Map`/`Set`/etc.) | ✅ | ❌ (Lua has one table type)
 `customRef`, SSR helpers | ✅ | ❌ (not implemented)
@@ -161,7 +161,7 @@ folder — they're auto-detected).
 ## Contributing
 
 Open an issue, open a PR, send a carrier pigeon. The docs in
-[docs/](https://orhpel.github.io/reactive.lua/) explain the design decisions and where the
+[docs/](https://orhpel.github.io/reactive.lua/docs/) explain the design decisions and where the
 deliberate divergences from Vue are — read them before proposing
 "improvements" that break the design intent.
 
