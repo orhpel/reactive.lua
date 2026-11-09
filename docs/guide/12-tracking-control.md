@@ -54,4 +54,4 @@ probably don't.
 
 ## Reference
 
-Full signatures: [`reference/effect.md`](reference/effect.md).
+Full signatures: [`reference/effect.md`](../reference/effect.md).

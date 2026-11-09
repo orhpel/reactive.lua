@@ -121,4 +121,4 @@ basics down.
 
 ## Reference
 
-Full signatures and details: [`reference/watch.md`](reference/watch.md).
+Full signatures and details: [`reference/watch.md`](../reference/watch.md).

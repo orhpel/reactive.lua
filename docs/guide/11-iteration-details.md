@@ -104,5 +104,5 @@ of an early exit, don't `break` out of it.
 
 `pairs`/`ipairs`/`#` aren't separate functions to document — they're
 built-in Lua operations that work correctly against whatever
-`reactive()` returns. See [`reference/reactive.md`](reference/reactive.md)
+`reactive()` returns. See [`reference/reactive.md`](../reference/reactive.md)
 for `reactive()` itself.

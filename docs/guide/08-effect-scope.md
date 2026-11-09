@@ -158,4 +158,4 @@ more useful for library-style building blocks.
 
 ## Reference
 
-Full signatures and details: [`reference/scope.md`](reference/scope.md).
+Full signatures and details: [`reference/scope.md`](../reference/scope.md).

@@ -69,7 +69,7 @@ avoid it.
 
 ```lua
 -- DON'T DO THIS:
-rawset(myReactiveProxy, "key", "value")
+rawset(myReactiveTable, "key", "value")
 ```
 
 `rawset()`/`rawget()` exist specifically to bypass metamethods

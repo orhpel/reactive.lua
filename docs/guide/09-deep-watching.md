@@ -105,4 +105,4 @@ structure.
 ## Reference
 
 Full details, including exactly how the depth counting works: see
-`deep` in [`reference/watch.md`](reference/watch.md).
+`deep` in [`reference/watch.md`](../reference/watch.md).

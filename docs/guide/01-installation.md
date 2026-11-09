@@ -37,7 +37,7 @@ That single `require` is all you ever need — `reactive/init.lua` is
 the one public entry point, and it pulls in everything else for you.
 You never need to `require("reactive.ref")` or poke at the other files
 directly (unless you're doing something advanced — see
-[`reactive.internal`](reference/README.md#internal-access) in the
+[`reactive.internal`](../reference/README.md#internal-access) in the
 reference).
 
 ## Running on OpenComputers

@@ -65,7 +65,7 @@ of it is required knowledge. Just keep reading.
 `reactive.lua` — code, tests, and this documentation — was built by
 Lephro in collaboration with Claude (Anthropic). It's a decent proof
 that you can build genuinely solid, well-tested software this way, so
-we figured that was worth a mention. See [`NOTICE`](../NOTICE) for the
+we figured that was worth a mention. See [`README`](../../README.md) for the
 full credits, including the Vue.js copyright notice.
 
 ## What's next

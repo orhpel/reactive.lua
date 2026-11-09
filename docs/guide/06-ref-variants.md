@@ -34,7 +34,7 @@ Replacing `.value` wholesale still works exactly like a normal ref.
 It's only *mutating into* the existing value that's untracked —
 because that value was never wrapped in `reactive()` to begin with.
 If you do need to notify subscribers after such an in-place mutation,
-`triggerRef()` (see [`reference/ref.md`](reference/ref.md)) forces it
+`triggerRef()` (see [`reference/ref.md`](../reference/ref.md)) forces it
 manually.
 
 ## `toRef()` — pulling a live link out of something
@@ -150,4 +150,4 @@ counter.count = 5       -- forwards to count.value = 5 under the hood
 
 ## Reference
 
-Full signatures and details: [`reference/ref.md`](reference/ref.md).
+Full signatures and details: [`reference/ref.md`](../reference/ref.md).

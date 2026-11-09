@@ -112,5 +112,5 @@ in sync by hand — stop, that's exactly what
 
 ## Reference
 
-Full signatures and edge cases: [`reference/ref.md`](reference/ref.md),
-[`reference/effect.md`](reference/effect.md).
+Full signatures and edge cases: [`reference/ref.md`](../reference/ref.md),
+[`reference/effect.md`](../reference/effect.md).

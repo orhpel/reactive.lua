@@ -131,4 +131,4 @@ values and want everything to read the same way at the call site.
 
 ## Reference
 
-Full signatures and details: [`reference/reactive.md`](reference/reactive.md).
+Full signatures and details: [`reference/reactive.md`](../reference/reactive.md).

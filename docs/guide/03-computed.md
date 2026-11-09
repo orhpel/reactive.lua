@@ -160,4 +160,4 @@ which automatically includes any `computed()` created inside it.
 
 ## Reference
 
-Full signature and details: [`reference/computed.md`](reference/computed.md).
+Full signature and details: [`reference/computed.md`](../reference/computed.md).

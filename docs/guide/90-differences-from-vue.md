@@ -14,7 +14,7 @@ Feature | Vue 3 | reactive.lua
 `ref` / `computed` / `effect` | ✅ | ✅
 `reactive` / `readonly` / `shallow*` | ✅ | ✅
 `watch` / `watchEffect` | ✅ | ✅
-`effectScope` | ✅ (nested) | ✅ (flat only — [see why](https://orhpel.github.io/reactive/08-effect-scope/))
+`effectScope` | ✅ (nested) | ✅ (flat only — [see why](08-effect-scope.md))
 `toRef` / `toRefs` / `proxyRefs` | ✅ | ✅
 Collection handlers (`Map`/`Set`/etc.) | ✅ | ❌ (Lua has one table type)
 `customRef`, SSR helpers | ✅ | ❌ (not implemented)

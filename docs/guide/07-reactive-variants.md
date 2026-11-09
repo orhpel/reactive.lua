@@ -89,7 +89,7 @@ inside them.
 
 `isReadonly()` tells you if something is a `readonly()` or
 `shallowReadonly()` proxy specifically. The combined `isShallow()`
-(covered in [`reference/reactive.md`](reference/reactive.md)) tells
+(covered in [`reference/reactive.md`](../reference/reactive.md)) tells
 you if something is either shallow variant — or a `shallowRef()`, for
 that matter, since it checks both families at once.
 
@@ -113,4 +113,4 @@ that matter, since it checks both families at once.
 
 ## Reference
 
-Full signatures and details: [`reference/reactive.md`](reference/reactive.md).
+Full signatures and details: [`reference/reactive.md`](../reference/reactive.md).
