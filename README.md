@@ -107,9 +107,9 @@ object and hope for the best."
 
 Yes. In the [documentation](https://orhpel.github.io/reactive.lua/docs/) you'll find:
 
-- [ref() and effect()](https://orhpel.github.io/reactive.lua/guide/docs/02-ref-and-effect/) — the intro
-- [computed()](https://orhpel.github.io/reactive.lua/guide/docs/03-computed/) — lazy, cached, chainable
-- [reactive()](https://orhpel.github.io/reactive.lua/guide/docs/04-reactive-objects/) — deep proxies for your tables
+- [ref() and effect()](https://orhpel.github.io/reactive.lua/docs/guide/02-ref-and-effect/) — the intro
+- [computed()](https://orhpel.github.io/reactive.lua/docs/guide/03-computed/) — lazy, cached, chainable
+- [reactive()](https://orhpel.github.io/reactive.lua/docs/guide/04-reactive-objects/) — deep proxies for your tables
 - [watch() and watchEffect()](https://orhpel.github.io/reactive.lua/docs/guide/05-watch/) — with the full `deep`
   option spec
 - [Deep watching](https://orhpel.github.io/reactive.lua/docs/guide/09-deep-watching/) — why `deep = N` means what
